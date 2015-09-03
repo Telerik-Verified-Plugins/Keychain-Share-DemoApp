@@ -2,10 +2,10 @@
   "ProjectName": "Keychain Sharing",
   "ProjectGuid": "1266967f-1d29-49b7-a2e0-5a5dbe10818b",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.KeychainSharing",
-  "DisplayName": "Keychain Sharing",
-  "Author": "",
-  "Description": "Keychain Sharing",
+  "AppIdentifier": "com.telerik.plugindemo.keychainsharing1",
+  "DisplayName": "Keychain Sh.1",
+  "Author": "Telerik",
+  "Description": "Keychain Sharing 1",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
@@ -14,7 +14,7 @@
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.7.0",
+  "FrameworkVersion": "4.0.0",
   "AndroidPermissions": [
     "android.permission.INTERNET"
   ],
@@ -22,7 +22,7 @@
     "Portrait",
     "Landscape"
   ],
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "true",
   "iOSStatusBarStyle": "Default",
   "Framework": "Cordova",
   "WP8TileTitle": "",
@@ -41,5 +41,15 @@
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "cordova-plugin-console",
+    "cordova-plugin-device",
+    "cordova-plugin-dialogs",
+    "cordova-plugin-keychainsharing@0.3.0",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-vibration",
+    "cordova-plugin-whitelist"
   ]
 }
